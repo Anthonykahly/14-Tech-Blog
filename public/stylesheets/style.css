@@ -1,0 +1,197 @@
+:root {
+    --primary: #ccdad1;
+   --light-dark: #a1a0a1;
+    --tertiary: #788585;
+    --dark: #201110;
+    --secondary: #dce9d5;
+    --border-radius: .2rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--dark);
+    background-color: var(--primary);
+    font-size: 19px;
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h5, h6 {
+    color: var(--dark);
+    line-height: 1;    
+    font-weight: 625;
+}
+
+.link-color {
+    color: var(--tertiary);
+    margin: 8px;  
+    padding: 8px;
+}
+
+main {
+    width: 75%;    
+    margin: 17px auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    flex-direction: column;    
+    display: flex;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 6px 5px;
+    display: block;
+    width: 100%;    
+    background-color: var(--light-dark);
+    color: white;    
+    border-radius: var(--border-radius);
+    margin: 5px 0;
+    outline: none;
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--tertiary);
+    color: var(--primary);
+}
+
+.btn-inline {
+    display: inline;
+}
+
+.btn-back {
+    border-radius: var(--border-radius);
+    color: var(--primary);
+    text-decoration: none;
+    display: inline-block;    
+    box-shadow: 3px 3px var(--secondary);
+    background-color: var(--light-dark);
+    font-size: 1rem;
+    padding: 13px;
+    margin-top: 16px;
+    width: auto;
+}
+
+.btn-back:hover {
+    background-color: var(--tertiary);
+    color: var(--primary);    
+}
+
+.hero {
+    padding: 5% 6%;
+    color: var(--primary);    
+    background-color: var(--dark);
+}
+
+.hero p {
+    max-width: 69%;
+}
+
+.app-title {
+    color: var(--dark);
+    border-radius: var(--border-radius);
+    display: inline-block;
+    background-color: var(--primary);
+    padding: 0 10px;    
+    font-size: 3rem;    
+}
+
+.list-item {
+    color: var(--primary);
+    border-radius: var(--border-radius);
+    margin-bottom: 10px;    
+    background-color: var(--light-dark);
+    padding: 1%;
+}
+
+.list-item:hover {
+    background-color: var(--dark);
+}
+
+.status-icon {
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 1);    
+    padding: 2px 5px;
+    border-radius: var(--border-radius);
+}
+
+.icon-danger {
+    color: rgb(255, 70, 70);
+}
+
+.icon-success {
+    color: rgb(29, 153, 255);
+}
+
+.card {
+    margin: 17px;
+    border-radius: var(--border-radius);    
+    border: 2px solid var(--dark);
+}
+
+.card-header {
+    padding: 1%;
+    color: var(--primary);    
+    background-color: var(--dark);
+}
+
+.card-body {
+    padding: 2%;
+}
+
+h4 {
+    font-weight: 650;
+    line-height: 1;    
+    color: var(--light-dark);
+}
+
+.link {
+    color: var(--light-dark);
+}
+
+.login-link {
+    color: var(--dark);
+}
+
+.nav {
+    float: top;    
+    line-height: 1;
+    padding: 9px;
+}
+
+footer {
+    display: flex;
+    font-size: 99%;    
+    border-top: 1px solid #ccc;
+    padding: 2%;
+    justify-content: center;
+}
+
+.form-label, .form-input, .form-textarea {
+    display: block;
+}
+
+.form-label {
+    margin: 5px;
+    font-size: 1rem;
+}
+
+.form-input {
+    border: 2px solid var(--light-dark);
+    margin: 6px ;
+    border-radius: var(--border-radius);    
+    font-size: 1rem;
+    padding: 1%;
+    width: 99%;
+}
