@@ -1,3 +1,4 @@
+//Add post
 async function newForm(event) {
   event.preventDefault();
 
