@@ -6,8 +6,6 @@
 
 - [Description](#description)
 
-- [Screenshot](#screenshot)
-
 - [Installation](#installation)
 
 - [Usage](#usage)
@@ -21,8 +19,6 @@
 ## Description
 
 I was tasked with creating a tech blog for industry professionals to publish, comment, and see other users posts. This app follows the MVC that uses handlebars, node, mysqls, and other npm packages to operate.
-
-## Screenshot
 
 ## Installation
 
